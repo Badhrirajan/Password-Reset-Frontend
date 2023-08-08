@@ -1,6 +1,6 @@
 import React from "react";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Login from "./Components/Log";
+import Login from "./Components/Login";
 import {Routes,Route} from 'react-router-dom'
 import Sign from "./Components/Sign";
 import Email from "./Components/Email";
