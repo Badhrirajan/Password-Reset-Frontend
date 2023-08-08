@@ -6,7 +6,7 @@ export default function Email() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        fetch("http://localhost:5000/forgot-password", {
+        fetch("https://password-reset-rmb9.onrender.com/forgot-password", {
           method: "POST",
           crossDomain: true,
           headers: {

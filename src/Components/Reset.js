@@ -9,7 +9,7 @@ export default function Reset() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:5000/reset-password/${id}/${token}`, {
+        fetch(`https://password-reset-rmb9.onrender.com/reset-password/${id}/${token}`, {
           method: "POST",
           crossDomain: true,
           headers: {

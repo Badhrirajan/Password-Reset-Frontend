@@ -7,7 +7,7 @@ export default function Page() {
    const navigate = useNavigate()
 
     useEffect( () => {
-        fetch("http://localhost:5000/userdata", {
+        fetch("https://password-reset-rmb9.onrender.com/userdata", {
           method: "POST",
           crossDomain: true,
           headers: {

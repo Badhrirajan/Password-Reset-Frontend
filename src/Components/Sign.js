@@ -18,7 +18,7 @@ export default function Sign() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5000/createuser", {
+    fetch("https://password-reset-rmb9.onrender.com/createuser", {
       method: "POST",
       crossDomain: true,
       headers: {
