@@ -1,8 +1,10 @@
 import React,{useState} from 'react'
+import { useNavigate } from 'react';
 import Swal from 'sweetalert2';
 
 export default function Email() {
     const [email, setEmail] = useState()
+    const navigate = useNavigate()
     
       const handleSubmit = (e) => {
         e.preventDefault();
@@ -23,6 +25,7 @@ export default function Email() {
                 icon: "success",
                 text: result,
               });
+              navigate('/')
             } else{
                 Swal.fire({
                     icon: "error",
